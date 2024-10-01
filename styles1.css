@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #002c71;
+}
+
+::-webkit-scrollbar {
+    width: 0px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-image: linear-gradient(to bottom, #1f245c, #050523);
+
+    }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #88888800; 
+    border-radius: 10px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #55555500; 
+  }
+
+.cuerpo {
+    background-image: linear-gradient(to bottom, #1f245c, #050523);
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+.titulo-box {
+    background-color: #00000000; 
+    padding: 20px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.titulo {
+    margin: 0;
+    text-align: center;
+    color: #ffffff; 
+}
+
+.contenido {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #373e659e; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info, .requisitos, .cuando, .donde, .proceso, .fundamentos, .tramite, .ubicacion, .servicios, 
+.acceso, .sanciones, .tiempos, .limitaciones, .accesibilidad, .ubicacion, .servicios, .acceso, 
+.proceso, .costos, .para-que, .ubicacion, .servicios, .costos, .acceso, .selecciones, .formar-parte, 
+.ubicacion, .que-hace, .servicios, .vinculaciones, .bolsa-trabajo, .practicas, .ubicacion, 
+.que-hace, .servicios, .tramites, .costos-tiempos, .proceso, .ubicacion, .servicios, .como-saber, 
+.becas-actuales, .acceder-intercambio, .apoyos-intercambios, .ubicacion, .servicios-centro, 
+.servicios-estudiante, .contacto, .vinculaciones-beneficios, .ubicacion, .servicios, .acceso, 
+.proceso, .fechas, .opciones, .ubicacion, .organizacion, .direccion, .trabajo, .consejo, .ubicacion, 
+.proceso, .titulacion, .costos, .tiempos, .requisitos, .opciones, .ubicacion, .organizacion, 
+.directores, .funciones, .consejo {
+    margin-bottom: 10px;
+}
+
+h2 {
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #1f245c;
+    color:#7a7693;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.toggle {
+    margin-top: 0;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.185);
+
+}
+
+.toggle:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.705);
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.content.active {
+    max-height: 1000px;
+    transition: max-height 0.5s ease;
+}
+
+ul, ol {
+    color: #acacac;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    background-color: #ffffff0c;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+li {
+    color: #acacac;
+    margin-bottom: 5px;
+    font-family: monospace;
+
+}
+
+p {
+    color: #acacac;
+    line-height: 1.6;
+    font-family: monospace;
+    background-color: #ffffff0c;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.volverboton{
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    background-color: #002b7100;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.boton-volver {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0057b300; 
+    color: #a1a1a1;
+    font-family: monospace;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-volver:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
